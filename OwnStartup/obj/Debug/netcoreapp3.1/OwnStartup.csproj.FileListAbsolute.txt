@@ -1,0 +1,5 @@
+D:\CShrp_NetCore_Itea\OwnStartup\obj\Debug\netcoreapp3.1\OwnStartup.csprojAssemblyReference.cache
+D:\CShrp_NetCore_Itea\OwnStartup\obj\Debug\netcoreapp3.1\OwnStartup.csproj.CoreCompileInputs.cache
+D:\CShrp_NetCore_Itea\OwnStartup\obj\Debug\netcoreapp3.1\OwnStartup.MvcApplicationPartsAssemblyInfo.cache
+D:\CShrp_NetCore_Itea\OwnStartup\obj\Debug\netcoreapp3.1\OwnStartup.AssemblyInfoInputs.cache
+D:\CShrp_NetCore_Itea\OwnStartup\obj\Debug\netcoreapp3.1\OwnStartup.AssemblyInfo.cs
