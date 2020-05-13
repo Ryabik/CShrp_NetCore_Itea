@@ -12,13 +12,12 @@ namespace OwnStartup
     public class MyStartup
     {
         private IConfiguration _myConfig { get; }
-        public MyStartup(IConfiguration config)
+        public MyStartup(IConfiguration configuration)
         {
-            config = _myConfig;
+             _myConfig = configuration;
         }
             public void ConfigureServices(IServiceCollection services)
             {
-
             }
 
             public void Configure(IApplicationBuilder app)
@@ -29,6 +28,7 @@ namespace OwnStartup
                     endpoints.MapGet("/", async context =>
                     {
                         await context.Response.WriteAsync(_myConfig["ThisTest"]);
+                        await context.Response.WriteAsync(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
                     });
                    
                 });
