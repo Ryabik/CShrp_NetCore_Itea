@@ -9,6 +9,12 @@
 *.user
 *.userosscache
 *.sln.docstates
+OwnStartup/.vs/OwnStartup/DesignTimeBuild/.dtbcache.v2 OwnStartup/.vs/OwnStartup/v16/.suo
+OwnStartup/bin/Debug/netcoreapp3.1/OwnStartup.dll
+OwnStartup/bin/Debug/netcoreapp3.1/OwnStartup.pdb
+        OwnStartup/obj/Debug/netcoreapp3.1/OwnStartup.csprojAssemblyReference.cache
+        OwnStartup/obj/Debug/netcoreapp3.1/OwnStartup.dll
+        OwnStartup/obj/Debug/netcoreapp3.1/OwnStartup.pdb
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
