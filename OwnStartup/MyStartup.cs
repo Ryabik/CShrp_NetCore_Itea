@@ -37,11 +37,16 @@ namespace OwnStartup
             app.UseRouting();
                 app.UseEndpoints(endpoints =>
                 {
+                     string Get()
+                    {
+                        return _myConfig.GetSection("Logging").GetSection("LogLevel").GetValue<string>("Microsoft.Hosting.Lifetime"); // here  
+                    }
+
                     endpoints.MapGet("/", async context =>
                     {
-                        await context.Response.WriteAsync(_myConfig["ThisTest"]);
-                        await context.Response.WriteAsync(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
-                        
+                        await context.Response.WriteAsync(_myConfig["ThisTest"] + "\n");//Logging.LogLevel."Microsoft.Hosting.Lifetime"
+                        await context.Response.WriteAsync("Microsoft.Hosting.Lifetime:  "+ Get());
+                       
                     });
 
                     endpoints.MapControllerRoute(
