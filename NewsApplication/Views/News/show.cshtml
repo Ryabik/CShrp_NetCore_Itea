@@ -1,0 +1,24 @@
+﻿
+<head>
+    @ViewData["HeadTitle"]
+</head>
+<h1>
+    @{
+        var article = ViewData["Article"] as Homework3.Models.News;
+    }
+
+    <div>
+        <h5> ID: @article.Id   </h5>
+    </div>
+    <div>
+        <h5> Author:@article.AuthorName </h5>
+    </div>
+    <div>
+        <h5>   @article.Text </h5>
+    </div>
+    <div>
+        <h5>   @(article.IsFake? "That's fake":"That's true!")</h5>
+    </div>
+</h1>
+
+
