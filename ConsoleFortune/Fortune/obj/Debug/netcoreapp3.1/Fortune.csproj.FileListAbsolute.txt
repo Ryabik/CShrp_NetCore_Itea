@@ -1,0 +1,16 @@
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Fortune.exe
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.csprojAssemblyReference.cache
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.AssemblyInfoInputs.cache
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.AssemblyInfo.cs
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Fortune.deps.json
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Fortune.runtimeconfig.json
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Fortune.runtimeconfig.dev.json
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Fortune.dll
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Fortune.pdb
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\bin\Debug\netcoreapp3.1\Unity.Container.dll
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.csproj.CoreCompileInputs.cache
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.csproj.CopyComplete
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.dll
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.pdb
+D:\CShrp_NetCore_Itea\ConsoleFortune\Fortune\obj\Debug\netcoreapp3.1\Fortune.genruntimeconfig.cache

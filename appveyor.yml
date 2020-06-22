@@ -1,0 +1,19 @@
+version: 1.0.{build}
+configuration: Release
+cache: 
+    - packages -> **\packages.config
+environment:
+    matrix:
+    - solution_folder: OwnStartup
+      full_project_name: OwnStartup/OwnStartup.csproj
+
+    - solution_folder: NewsApplication
+      full_project_name: NewsApplication/Homework3
+    
+    - solution_folder: ConsoleFortune
+      full_project_name: ConsoleFortune/Fortune/Fortune.csproj
+
+before_build: nuget restore %solution_folder%
+build:     
+  project: Homework3.csproj
+    publish_wap: true
