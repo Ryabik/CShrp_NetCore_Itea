@@ -15,5 +15,5 @@ environment:
 
 before_build: nuget restore %solution_folder%
 build:     
-  project: Homework3.csproj
+  project: '%full_project_name%'
     publish_wap: true
