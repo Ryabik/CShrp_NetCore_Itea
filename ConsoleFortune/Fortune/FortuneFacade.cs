@@ -9,19 +9,14 @@ namespace Fortune
         private IFortuneTeller _fortuneT;
         private IFortuneGetter _fortuneG;
         
-        public FortuneFacade(IFortuneGetter fortuneG)
+        public FortuneFacade(IFortuneGetter fortuneG, IFortuneTeller fortuneT)
         {
             _fortuneG = fortuneG;
+            _fortuneT = fortuneT;
         }
         public string FortuneGet()
         {
             return _fortuneG.GetFortune();
-        }
-
-        public FortuneFacade(IFortuneTeller fortuneT)
-        {
-           
-             _fortuneT = fortuneT;
         }
 
         public void FortuneTell()

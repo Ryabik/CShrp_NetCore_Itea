@@ -15,10 +15,10 @@ namespace Fortune
 
             var fortune = container.Resolve<FortuneFacade>();
             fortune.FortuneGet();
-            Console.WriteLine(fortune.FortuneGet());
+            Console.WriteLine("getted fortune: " + fortune.FortuneGet());
 
-            //var fortunetell = container.Resolve<FortuneFacade>();
-            //fortunetell.FortuneTell();
+            var fortunetell = container.Resolve<FortuneFacade>();
+            fortunetell.FortuneTell();
 
             Console.Read();
 
