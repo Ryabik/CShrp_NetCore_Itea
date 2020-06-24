@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infestation", "Infestation.csproj", "{091C8120-9569-43AD-9C7B-C70F6AAB1CEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{091C8120-9569-43AD-9C7B-C70F6AAB1CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091C8120-9569-43AD-9C7B-C70F6AAB1CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091C8120-9569-43AD-9C7B-C70F6AAB1CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091C8120-9569-43AD-9C7B-C70F6AAB1CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36E13774-5325-46B4-90F1-1B1093E9885F}
+	EndGlobalSection
+EndGlobal
