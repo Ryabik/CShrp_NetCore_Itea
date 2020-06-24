@@ -1,19 +1,18 @@
-version: 1.0.{build}
-configuration: Release
-cache: 
-    - packages -> **\packages.config
-environment:
-    matrix:
-    - solution_folder: OwnStartup
-      full_project_name: OwnStartup/OwnStartup.csproj
-
-    - solution_folder: NewsApplication
-      full_project_name: NewsApplication/Homework3
-    
-    - solution_folder: ConsoleFortune
-      full_project_name: ConsoleFortune/Fortune/Fortune.csproj
-
-before_build: nuget restore %solution_folder%
-build:     
-  project: '%full_project_name%'
-    publish_wap: true
+version: 1.0.{build}
+configuration: Release
+cache:
+	-packages ->**\packages.config
+envionment:
+matrix:
+-solution_folder: OwnStartup
+full_project_name: OwnStartUp/OwnStartup.csproj
+-solution_folder: NewsApplication
+full_project_name: NewsApplication/Homework3.csproj
+-solution_folder: ConsoleFortune
+full_project_name: ConsoleFortune/Fortune/Fortune.csproj
+-solution_folder: Infestation
+full_project_name: Infestation/Infestation.csproj
+before_build: nuget restore %solution_folder%
+build:
+project: %full_project_name%
+publish_wap: true
